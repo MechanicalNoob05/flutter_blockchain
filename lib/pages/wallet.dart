@@ -154,7 +154,6 @@ class _WalletPageState extends State<WalletPage> {
                     labelColor: Colors.blue,
                     tabs: [
                       Tab(text: 'Assets'),
-                      Tab(text: 'NFTs'),
                       Tab(text: 'Options'),
                     ],
                   ),
@@ -192,10 +191,6 @@ class _WalletPageState extends State<WalletPage> {
                             )
                           ],
                         ),
-                        // NFTs Tab
-                        SingleChildScrollView(
-                            child: NFTListPage(
-                                address: walletAddress, chain: 'sepolia')),
                         // Activities Tab
                         Center(
                           child: ListTile(
