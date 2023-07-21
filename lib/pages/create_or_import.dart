@@ -27,22 +27,6 @@ class CreateOrImportPage extends StatelessWidget {
             ),
             const SizedBox(height: 24.0),
 
-            // Logo
-            Container(
-              width: double.infinity,
-              alignment: Alignment.center,
-              child: SizedBox(
-                width: 150,
-                height: 200,
-                child: Image.asset(
-                  'assets/images/logo.png',
-                  fit: BoxFit.contain,
-                ),
-              ),
-            ),
-            const SizedBox(height: 50.0),
-
-            // Login button
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
